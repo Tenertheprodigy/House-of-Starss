@@ -13,3 +13,14 @@
 @media(min-width:1100px){.engine-copy{position:sticky;top:125px;align-self:start;padding-top:45px}.engine{min-height:560px}.asset-strip{scrollbar-width:thin;scrollbar-color:#526338 #10130f}}.output-route.route-active{stroke:var(--lime);stroke-width:1.7}.feature{transition:background .3s}.feature:hover{background:#cfff4703}.feature:hover>svg{filter:drop-shadow(0 0 9px #cfff4730)}
 body{font-family:Inter,Arial,Helvetica,sans-serif}
 .telegram{overflow:clip}
+/* Official House of Stars artwork; decorative network stars remain separate. */
+.brand-mark{display:block;flex-shrink:0;object-fit:contain;width:36px;height:36px;border-radius:8px}
+.logo>.brand-mark{transition:transform .25s;box-shadow:0 0 0 1px #cfff4726}
+.logo:hover>.brand-mark{transform:scale(1.05)}
+.exchange-core>.brand-mark{width:64px;height:64px;border-radius:14px;margin-bottom:10px;box-shadow:0 0 24px #cfff4726}
+.chat-avatar{overflow:hidden;background:none;border:0}
+.chat-avatar>.brand-mark{width:36px;height:36px;border-radius:50%}
+.route-table h3>.brand-mark,.route-brand>.brand-mark{width:25px;height:25px;border-radius:5px}
+.final-brand{width:80px;height:80px;margin:0 auto 27px;border-radius:18px;box-shadow:0 0 36px #cfff4726}
+@media(max-width:540px){.logo>.brand-mark{width:29px;height:29px;border-radius:6px}.exchange-core>.brand-mark{width:41px;height:41px;border-radius:9px;margin-bottom:7px}.final-brand{width:65px;height:65px;border-radius:14px}}
+@media(prefers-reduced-motion:reduce){.logo:hover>.brand-mark{transform:none}}
