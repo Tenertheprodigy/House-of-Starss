@@ -24,3 +24,7 @@ body{font-family:Inter,Arial,Helvetica,sans-serif}
 .final-brand{width:80px;height:80px;margin:0 auto 27px;border-radius:18px;box-shadow:0 0 36px #cfff4726}
 @media(max-width:540px){.logo>.brand-mark{width:29px;height:29px;border-radius:6px}.exchange-core>.brand-mark{width:41px;height:41px;border-radius:9px;margin-bottom:7px}.final-brand{width:65px;height:65px;border-radius:14px}}
 @media(prefers-reduced-motion:reduce){.logo:hover>.brand-mark{transform:none}}
+.contract-bar{max-width:1600px;margin-inline:auto;padding:9px 5.5vw;display:flex;justify-content:flex-end;align-items:center;gap:7px;border-bottom:1px solid var(--line);font-family:ui-monospace,SFMono-Regular,Consolas,monospace;font-size:11px;line-height:1.4}
+.contract-label{color:var(--muted)}.contract-address{color:var(--lime);user-select:all;overflow-wrap:anywhere}
+html{scroll-padding-top:135px}
+@media(max-width:540px){.contract-bar{padding:8px 23px;gap:5px;font-size:9px}html{scroll-padding-top:115px}}
